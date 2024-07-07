@@ -3,55 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Webpage</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Expense Tracker</title>
 </head>
 <body>
     <header>
-        <h1>Expense Track App</h1>
+        <h2>Expense Tracker Application</h2>
     </header>
-    <main>
-        <section class="registration-form">
-            <h3>Registration</h3>
-            <form>
-                <div class="form-control">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-control">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-control">
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <button type="submit" class="btn">Register</button>
-            </form>
-        </section>
-
-        <section class="user-info">
-            <h3>User Information</h3>
-            <table>
-                <tr>
-                    <th>Image</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone Number</th>
-                </tr>
-                <tr>
-                    <td><img src="user.jpg" alt="" class="user-image"></td>
-                    <td>Martin</td>
-                    <td>martinnjoroge077@gmail.com</td>
-                    <td></td>
-                </tr>
-            </table>
-        </section>
-
-        <section class="click here">
-            <h3>External Link</h3>
-            <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
-        </section>
-    </main>
+    <p>Manage your expenses</p>
+    <form>
+        <label for="Fname">First name</label>
+        <input type="text" name = "Fname" id="Fname" required>
+        <label for="lname"> Last Name</label>
+        <input type="text" name="lname" id ="Lname" required> 
+        <label for="Email"> Email</label>
+        <input type="text" name="Email id="Email" required>
+        <label for="Phone_number"> Phone number</label>
+        <input type="text" name="Phone_number" id="Phone_number" required>
+        <label for="password"> Password</label>
+        <input type="text" name="Password" id="password" required>
+        <label for="gender">Gender</label>
+        <input type="radio" required >male
+        <input type="radio" required>Female
+        <button type ="submit"> Sign Up</button>    
+        <table>
+            <tr>
+                <th>First name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone number</th>
+            </tr>
+            <tr>
+                <td> Martin </td>
+                <td>Maina</td>
+                <td>martin@gmail.com</td>
+                <td>0725498717</td>
+            </tr>
+        </table>   
+        <img src="images/work-1.png" alt=" This is work image">
+        <a href="https://google.com">google</a>
+    </form> 
 </body>
 </html>
